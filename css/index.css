@@ -172,7 +172,10 @@ img {
   display: flex;
   justify-content: space-between;
   font-size: 15px;
-  border-bottom: dashed 3px lightgray;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 .nav-contents nav {
   font-size: 17.4px;
@@ -184,6 +187,14 @@ img {
 .nav-contents nav a:link {
   text-decoration: none;
 }
+.nav-contents p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 4rem;
+}
+.top-border hr {
+  border-top: dashed 2px lightgray;
+  margin-bottom: 0px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -194,6 +205,9 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .fun-content {
+  border-bottom: 2px dashed lightgray;
 }
 .home .content-section {
   margin: 30px 0;
@@ -240,4 +254,16 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: block;
+  background-color: teal;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
 }
