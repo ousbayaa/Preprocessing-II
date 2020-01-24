@@ -1,1 +1,39 @@
 // Navigation Styles here
+.nav-contents {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    nav{
+        font-size: 17.4px;
+
+        a{
+            padding-left: 30px;
+            color: black;
+        }
+        a:link{
+            text-decoration: none;
+        }
+    }
+    p {
+        font-family: 'Indie Flower', cursive;
+        font-size: 4rem;
+    }
+    @media screen and ( max-width: 500px ) {
+        width: 500px;
+        flex-direction: column;
+        p {
+            font-size: 3rem;
+        }
+      }
+}
+
+.top-border {
+    hr {
+        border-top: dashed 2px lightgray;
+        margin-bottom: 0px;
+    }
+}
